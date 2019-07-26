@@ -15,14 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_23617A1396B891C0C7BC7F8C03085C01"
-        "OwnerKey" = "8:_BAE0A3B6C32B46B199DA16EA2E1EFF95"
+        "MsmKey" = "8:_1840B62598A24ABDB6E672213A8B303B"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_BAE0A3B6C32B46B199DA16EA2E1EFF95"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_23617A1396B891C0C7BC7F8C03085C01"
+        "OwnerKey" = "8:_1840B62598A24ABDB6E672213A8B303B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -34,7 +34,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BAE0A3B6C32B46B199DA16EA2E1EFF95"
+        "OwnerKey" = "8:_1840B62598A24ABDB6E672213A8B303B"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -71,6 +79,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -92,7 +108,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NET Framework 4.6.1"
+                "FrameworkVersion" = "8:.NET Framework 4.6.1 "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=671728"
                 }
@@ -707,9 +723,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BAE0A3B6C32B46B199DA16EA2E1EFF95"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1840B62598A24ABDB6E672213A8B303B"
             {
-            "SourcePath" = "8:..\\SimpleApp\\obj\\Debug\\SimpleApp.exe"
+            "SourcePath" = "8:..\\SimpleApp\\obj\\Release\\SimpleApp.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_780D21724EE546599F46065B4CACC7FE"
@@ -727,7 +743,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
-            "OutputConfiguration" = "8:"
+            "OutputConfiguration" = "8:Release|Any CPU"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{629E68AB-9F0A-48E4-8B7C-697B7D41C384}"
             "ShowKeyOutput" = "11:TRUE"
