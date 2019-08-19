@@ -27,6 +27,7 @@ namespace SimpleApp
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //Change the text to prove the button has been pressed
             txtHello.Text = "Hello";
         }
     }
