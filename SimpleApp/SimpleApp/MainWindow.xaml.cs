@@ -23,6 +23,7 @@ namespace SimpleApp
         public MainWindow()
         {
             InitializeComponent();
+			something crazy that won't compile
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
